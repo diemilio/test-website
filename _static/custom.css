@@ -1,0 +1,39 @@
+p {
+    text-align: justify;
+}
+
+html[data-theme="light"] {
+    /* whatever you want to change */
+    body {
+        background-color: #b92121; /* Replace this with your desired color */
+    }
+}
+
+/* anything related to the dark theme */
+html[data-theme="dark"] {
+    /* whatever you want to change */
+    body {
+        background-color: #261f7c; /* Replace this with your desired color */
+    }
+}
+
+/* Light theme */
+html[data-theme="light"] img[src$=".png"] {
+    background-color: transparent !important;
+}
+
+/* Dark theme */
+html[data-theme="dark"] img[src$=".png"] {
+    background-color: transparent !important;
+}
+
+/* Change code cell left border color - more specific and forceful */
+.jp-InputArea-editor, 
+.jp-CodeMirrorEditor,
+.jupyter-wrapper .cell_input div.highlight,
+div.cell div.cell_input > div.highlight,
+div.cell.code_cell div.input_area {
+    border-left-color: purple !important;
+    border-left-width: 3px !important;
+    border-left-style: solid !important;
+}
