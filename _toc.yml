@@ -7,6 +7,7 @@ chapters:
   - file: chapters/markdown
   - file: chapters/notebooks
   - file: chapters/bibliography
+  - file: chapters/test 
 
 # Or you organize the TOC by parts
 
